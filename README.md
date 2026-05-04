@@ -1,5 +1,5 @@
 # 🌿 MJU Academic Calendar 2026 (BE 2569)
-### ปฏิทินการศึกษา มหาวิทยาลัยแม่โจ้ ปีการศึกษา 2569 (ฉบับปรับปรุงให้น้องๆ ดูง่าย)
+### ปฏิทินการศึกษา มหาวิทยาลัยแม่โจ้ ปีการศึกษา 2569
 
 [![View Live](https://img.shields.io/badge/Live_Demo-View_Calendar-2d6a4f?style=for-the-badge&logo=github)](index.html)
 
