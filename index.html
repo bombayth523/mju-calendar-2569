@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ปฏิทินการศึกษา มหาวิทยาลัยแม่โจ้ ปีการศึกษา 2569</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header class="site-header">
+  <div class="header-bg-pattern"></div>
+  <div class="header-inner">
+    <div class="logo-circle">
+      <svg viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="23" cy="23" r="20" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+        <path d="M23 8 C23 8 15 14 15 22 C15 28 18 32 23 34 C28 32 31 28 31 22 C31 14 23 8 23 8Z" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+        <path d="M10 23 Q16 18 23 23 Q30 28 36 23" stroke="rgba(255,255,255,0.6)" stroke-width="1.2" fill="none"/>
+        <path d="M23 34 L23 38" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="23" cy="23" r="3" fill="rgba(255,255,255,0.8)"/>
+      </svg>
+    </div>
+    <div class="header-text">
+      <span class="header-label">มหาวิทยาลัยแม่โจ้ · Maejo University</span>
+      <h1 class="header-title">ปฏิทินการศึกษา<br>ปีการศึกษา 2569</h1>
+      <p class="header-sub">ระดับปริญญาตรี ทุกหลักสูตร</p>
+      <span class="header-badge">📅 ปี พ.ศ. 2569–2570</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ TABS ═══ -->
+<div class="tabs-wrapper">
+  <div class="tabs-inner">
+    <button class="tab-btn active" onclick="switchTab('prep', this)">
+      <span class="tab-dot"></span>เตรียมก่อนเปิดภาค
+    </button>
+    <button class="tab-btn" onclick="switchTab('s1', this)">
+      <span class="tab-dot"></span>ภาคที่ 1
+    </button>
+    <button class="tab-btn" onclick="switchTab('s2', this)">
+      <span class="tab-dot"></span>ภาคที่ 2
+    </button>
+    <button class="tab-btn" onclick="switchTab('s3', this)">
+      <span class="tab-dot"></span>ภาคฤดูร้อน
+    </button>
+    <button class="tab-btn" onclick="switchTab('tcas', this)">
+      <span class="tab-dot"></span>รับสมัคร (TCAS)
+    </button>
+  </div>
+</div>
+
+<div class="view-controls">
+  <button class="view-btn active" id="btn-cat" onclick="changeView('category')">แยกตามหมวดหมู่</button>
+  <button class="view-btn" id="btn-date" onclick="changeView('date')">เรียงตามวันที่</button>
+</div>
+
+<!-- ═══ MAIN ═══ -->
+<main class="content-wrap" id="main-content">
+  <!-- Content will be rendered here by JavaScript -->
+</main>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-mju">🌿 มหาวิทยาลัยแม่โจ้ — Maejo University</div>
+    <div class="footer-source">
+      ข้อมูลจากประกาศมหาวิทยาลัยแม่โจ้<br>
+      เรื่อง กำหนดปฏิทินการศึกษา ประจำปีการศึกษา ๒๕๖๙<br>
+      ลงนาม ณ วันที่ ๑๐ ตุลาคม พ.ศ. ๒๕๖๘ โดย รศ.ดร.ชัยยศ สัมฤทธิ์สกุล
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-credit">
+      สั่งทำโดย <strong>Bom</strong> &nbsp;·&nbsp; 
+      ทำโดย <strong>Claude (Anthropic)</strong> & <strong>Gemini CLI (Google)</strong> <span class="footer-heart">♡</span><br>
+      <span style="font-size:11px; opacity:.5;">ปฏิทินฉบับนี้จัดทำขึ้นเพื่อให้อ่านง่ายขึ้น · ควรตรวจสอบกับประกาศทางการเสมอ</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
